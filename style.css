@@ -12,6 +12,9 @@ body {
     font-size: 1.8rem;
 }
 
+.dog-heading{
+    font-size: 2rem;
+  }
 
 .hero-section {
     background-color: #1e1e1e;
@@ -147,4 +150,12 @@ footer {
     .quote-section {
         padding: 50px 0;
     }
+}
+@media (max-width: 450px) {
+  .dog-para{
+    font-size: 1rem;
+  }
+  .dog-heading{
+    font-size: 1rem;
+  }
 }
