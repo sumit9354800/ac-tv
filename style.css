@@ -16,8 +16,16 @@ body {
     font-size: 2rem;
   }
 
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
 .hero-section {
-    background-color: #1e1e1e;
+    background-image: url("assest/air-conditioning-condition.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top left;
+    background-color: #121212;
     color: white;
     padding: 80px 0;
     text-align: center;
