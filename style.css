@@ -4,7 +4,7 @@ body {
 }
 
 .bg-dark-custom {
-    background-color: #121212;
+    background-color: #01337e;
 }
 
 .navbar-brand {
@@ -21,10 +21,11 @@ body {
   }
 
 .hero-section {
-    background-image: url("assest/air-conditioning-condition.webp");
+    background-image: url("assest/mockup-a-tv-wall-mounted-in-a-dark-room-2025-03-12-01-32-19-utc\ \(1\).jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     background-color: #121212;
     color: white;
     padding: 80px 0;
@@ -56,9 +57,14 @@ body {
 }
 
 .quote-section {
-    background-color: #1e1e1e;
+    background-color: #01337e;
     color: white;
     padding: 80px 0;
+}
+
+.icons-font{
+    font-size: 60px;
+    color: #0d6efd;
 }
 
 .form-control {
@@ -67,10 +73,12 @@ body {
     margin-bottom: 15px;
 }
 
+.carousel-img{
+    height: 600px;
+    object-fit: cover;
+}
+
 .contact-icon {
-    width: 70px;
-    height: 70px;
-    background-color: #f8f9fa;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -157,6 +165,14 @@ footer {
 
     .quote-section {
         padding: 50px 0;
+    }
+
+    .carousel-heading{
+        font-size: 1.5em;
+    }
+
+    .carousel-font{
+        font-size: 1em;
     }
 }
 @media (max-width: 450px) {
