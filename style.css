@@ -3,6 +3,44 @@ body {
     color: #333;
 }
 
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+
+.animation-effact {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+@keyframes drop-in {
+    from {
+      transform:
+        rotate(-30deg) translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform:
+        rotate(0deg) translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  .box {
+    animation: drop-in 1000ms;
+  }
+
 .bg-dark-custom {
     background-color: #01337e;
 }
