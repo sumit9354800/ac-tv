@@ -26,29 +26,24 @@ body {
 
 @keyframes drop-in {
     from {
-      transform:
-        rotate(-30deg) translateY(-100%);
-      opacity: 0;
+        transform:
+            rotate(-30deg) translateY(-100%);
+        opacity: 0;
     }
+
     to {
-      transform:
-        rotate(0deg) translateY(0%);
-      opacity: 1;
+        transform:
+            rotate(0deg) translateY(0%);
+        opacity: 1;
     }
-  }
+}
 
-  .box {
+.box {
     animation: drop-in 1000ms;
-  }
-
-  .whatsapp-icon{
-
-  }
+}
 
 
-  .call-icon{
-    
-  }
+
 
 .bg-dark-custom {
     background-color: #01337e;
@@ -59,13 +54,13 @@ body {
     font-size: 1.8rem;
 }
 
-.dog-heading{
+.dog-heading {
     font-size: 2rem;
-  }
+}
 
-  .card{
+.card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
+}
 
 .hero-section {
     background-image: url("assest/mockup-a-tv-wall-mounted-in-a-dark-room-2025-03-12-01-32-19-utc\ \(1\).webp");
@@ -109,7 +104,7 @@ body {
     padding: 80px 0;
 }
 
-.icons-font{
+.icons-font {
     font-size: 60px;
     color: #0d6efd;
 }
@@ -120,7 +115,7 @@ body {
     margin-bottom: 15px;
 }
 
-.carousel-img{
+.carousel-img {
     height: 600px;
     object-fit: cover;
 }
@@ -214,22 +209,24 @@ footer {
         padding: 50px 0;
     }
 
-    .carousel-heading{
+    .carousel-heading {
         font-size: 1.5em;
     }
 
-    .carousel-font{
+    .carousel-font {
         font-size: 1em;
     }
 }
+
 @media (max-width: 450px) {
-  /* .dog-para{
+
+    /* .dog-para{
     font-size: 1rem;
   }
   .dog-heading{
     font-size: 1rem;
   } */
-  .footer-text{
-    text-align: center;
-  }
+    .footer-text {
+        text-align: center;
+    }
 }
